@@ -51,7 +51,8 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black no-repeat center center scroll;
+    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black
+      no-repeat center center scroll;
   }
 
   header video {
@@ -136,8 +137,10 @@ header .overlay {
 
 #moomoo {
   padding-top: 60px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%,
-      rgba(128, 1, 1, 0.5) 100%),
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5) 100%,
+      rgba(128, 1, 1, 0.5) 100%
+    ),
     url("footer-bg.jpg");
   background-size: cover;
   height: 30rem;
