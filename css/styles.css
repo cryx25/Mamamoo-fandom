@@ -141,7 +141,7 @@ header .overlay {
       rgba(0, 0, 0, 0.5) 100%,
       rgba(128, 1, 1, 0.5) 100%
     ),
-    url("../img/footer-bg.jpg");
+    url("footer-bg.jpg");
   background-size: cover;
   height: 30rem;
 }
